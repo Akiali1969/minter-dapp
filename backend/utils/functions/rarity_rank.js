@@ -41,7 +41,7 @@ const prompt = (query) => new Promise((resolve) => rl.question(query, resolve));
       );
     } else if (choice === "2") {
       const nftEdition = await prompt("Enter the NFT Edition: ");
-      const nft = nfts.find((nft) => nft.custom_fields.edition === +nftEdition);
+      const nft = nfts.find((nft) => nft.edition === +nftEdition);
       console.log({
         name: nft.name,
         rank: nft.rank,
