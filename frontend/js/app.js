@@ -173,7 +173,6 @@ async function loadInfo() {
     mintContainer.classList.remove('hidden');
     setTotalPrice();
   } else if (presaleMintActive) {
-    actionButton.classList.add('hidden');
     startTime = window.info.runtimeConfig.publicMintStart;
     mainHeading.innerText = h1_presale_mint;
     subHeading.innerText = h2_presale_mint;
@@ -187,7 +186,7 @@ async function loadInfo() {
       const whitelisted = await contract.methods.isWhitelisted(window.address, merkleJson).call();
       if(!whitelisted) {
         mainText.innerText = p_presale_mint_not_whitelisted;
-        //actionButton.innerText = button_presale_mint_not_whitelisted;
+        actionButton.innerText = button_presale_mint_not_whitelisted;
       } else {
         mainText.innerText = p_presale_mint_whitelisted;
         actionButton.classList.add('hidden');
@@ -197,7 +196,7 @@ async function loadInfo() {
     } catch(e) {
       // console.log(e);
       mainText.innerText = p_presale_mint_already_minted;
-      //actionButton.innerText = button_presale_already_minted;
+      actionButton.innerText = button_presale_already_minted;
     }
     setTotalPrice();
   } else {
@@ -205,7 +204,7 @@ async function loadInfo() {
     mainHeading.innerText = h1_presale_coming_soon;
     subHeading.innerText = h2_presale_coming_soon;
     mainText.innerText = p_presale_coming_soon;
-    //actionButton.innerText = button_presale_coming_soon;
+    actionButton.innerText = button_presale_coming_soon;
   }
 
   const clockdiv = document.getElementById("countdown");
