@@ -53,8 +53,8 @@ const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'rinkeby'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'AKI ALI NFT 4';
-const CONTRACT_SYMBOL = 'AANFT4';
+const CONTRACT_NAME = 'AKI ALI NFT 5';
+const CONTRACT_SYMBOL = 'AANFT5';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x2884a2c0c4b35F9E652f3373527cddA1Fd11786E';
 const TREASURY_ADDRESS = '0x2884a2c0c4b35F9E652f3373527cddA1Fd11786E';
@@ -74,7 +74,7 @@ const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the
 const PRESALE_WHITELISTED_ADDRESSES = []; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
-let CONTRACT_ADDRESS = "0xb6EcB7F555cA331b9CE53792810F640094112EA9"; // If you want to manually include it
+let CONTRACT_ADDRESS = "0x99A10f14B44d51fba0ad15da3646a9Ad2b6740Ca"; // If you want to manually include it
 
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = false; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
