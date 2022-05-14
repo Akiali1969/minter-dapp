@@ -160,7 +160,6 @@ async function loadInfo() {
   const subHeading = document.getElementById("subHeading");
   const mainText = document.getElementById("mainText");
   const actionButton = document.getElementById("actionButton");
-  document.getElementById("actionButton").hidden=true;
   const mintContainer = document.getElementById("mintContainer");
   const mintButton = document.getElementById("mintButton");
   const spinner = document.getElementById("spinner");
@@ -169,11 +168,12 @@ async function loadInfo() {
   if (publicMintActive) {
     mainHeading.innerText = h1_public_mint;
     mainText.innerText = p_public_mint;
-    //actionButton.classList.add('hidden');
+    actionButton.classList.add('hidden');
     mintButton.innerText = button_public_mint;
     mintContainer.classList.remove('hidden');
     setTotalPrice();
   } else if (presaleMintActive) {
+    actionButton.classList.add('hidden');
     startTime = window.info.runtimeConfig.publicMintStart;
     mainHeading.innerText = h1_presale_mint;
     subHeading.innerText = h2_presale_mint;
