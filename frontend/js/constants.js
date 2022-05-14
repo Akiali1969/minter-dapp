@@ -1,5 +1,5 @@
-const contractAddress = "0x99A10f14B44d51fba0ad15da3646a9Ad2b6740Ca"; //Replace with your own contract address
-const chain = 'rinkeby'; // rinkeby or polygon
+const contractAddress = "0x037c1648983c8399a9d039d4b194dd04f49882eb"; //Replace with your own contract address
+const chain = 'polygon'; // rinkeby or polygon
 
 const welcome_h1 = "Welcome to the SCOPX WARRIOR NFT Collection!!!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
