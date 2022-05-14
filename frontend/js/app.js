@@ -159,7 +159,8 @@ async function loadInfo() {
   const mainHeading = document.getElementById("mainHeading");
   const subHeading = document.getElementById("subHeading");
   const mainText = document.getElementById("mainText");
-  //const actionButton = document.getElementById("actionButton");
+  const actionButton = document.getElementById("actionButton");
+  document.getElementById("actionButton").hidden=true;
   const mintContainer = document.getElementById("mintContainer");
   const mintButton = document.getElementById("mintButton");
   const spinner = document.getElementById("spinner");
