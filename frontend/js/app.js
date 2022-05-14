@@ -185,8 +185,8 @@ async function loadInfo() {
       const merkleJson = await merkleData.json();
       const whitelisted = await contract.methods.isWhitelisted(window.address, merkleJson).call();
       if(!whitelisted) {
-        /*mainText.innerText = p_presale_mint_not_whitelisted;
-        actionButton.innerText = button_presale_mint_not_whitelisted;*/
+        mainText.innerText = p_presale_mint_not_whitelisted;
+        actionButton.classList.remove('hidden');
       } else {
         mainText.innerText = p_presale_mint_whitelisted;
         actionButton.classList.add('hidden');
