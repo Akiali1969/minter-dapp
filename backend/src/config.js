@@ -9,7 +9,7 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = "YOUR GG NAME";
 const description = "sdfsdf to dsfdsf this dsdfsdfescription";
-const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
+const baseUri = "ipfs://bafybeic4dtvxvhjnp633x5wzboegmgq5kyg4imunusuw5lruu2kmxri7ai/"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
@@ -69,7 +69,7 @@ const PUBLIC_MINT_START_DATE = "2022-03-20T11:30:48+00:00"; // This is required.
 const PRESALE_MINT_START_DATE = null; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0x4a8E1195D8009Ee082578C7e98DD8C422e281c7C"; // Address that will receive the royalty
-const BASE_URI = ""; // only update if you want to manually set the base uri
+const BASE_URI = "ipfs://bafybeic4dtvxvhjnp633x5wzboegmgq5kyg4imunusuw5lruu2kmxri7ai/"; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
 const PRESALE_WHITELISTED_ADDRESSES = []; // only update if you want to manually set the whitelisted addresses
 
