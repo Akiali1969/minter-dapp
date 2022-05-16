@@ -138,7 +138,7 @@ async function checkChain() {
                   chainName: 'Polygon Mainnet',
                   chainId: web3.utils.toHex(chainId),
                   nativeCurrency: { name: 'MATIC', decimals: 18, symbol: 'MATIC' },
-                  rpcUrls: ['https://rpc-mainnet.maticvigil.com '],
+                  rpcUrls: ['https://polygon-rpc.com/'],
                 },
               ],
             });
