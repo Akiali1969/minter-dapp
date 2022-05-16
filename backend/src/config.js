@@ -56,14 +56,14 @@ const CHAIN = 'polygon'; // only rinkeby or polygon
 const CONTRACT_NAME = 'SCOPX WARRIOR NFT';
 const CONTRACT_SYMBOL = 'SWNFT';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
-const OWNER_ADDRESS = '0x2884a2c0c4b35F9E652f3373527cddA1Fd11786E';
+const OWNER_ADDRESS = '0x3e204a46abd9c8e53C3B249f85603410aea9F820';
 const TREASURY_ADDRESS = '0x3e204a46abd9c8e53C3B249f85603410aea9F820';
 const MAX_SUPPLY = 1000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
 const MINT_PRICE = 30; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 5; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-05-15T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2022-03-20T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = null; // Optional. Eg: 2022-02-08T11:30:48+00:00
@@ -74,7 +74,7 @@ const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the
 const PRESALE_WHITELISTED_ADDRESSES = []; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
-let CONTRACT_ADDRESS = "0xd09d4bBE0127a45aF42c804F564aaBA1058F8847"; // If you want to manually include it
+let CONTRACT_ADDRESS = "0x037c1648983c8399a9d039d4b194dd04f49882eb"; // If you want to manually include it
 
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = false; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
