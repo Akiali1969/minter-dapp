@@ -7,9 +7,9 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "YOUR GG NAME";
-const description = "sdfsdf to dsfdsf this dsdfsdfescription";
-const baseUri = "ipfs://bafybeic4dtvxvhjnp633x5wzboegmgq5kyg4imunusuw5lruu2kmxri7ai/"; // This will be replaced automatically
+const namePrefix = "SCOPX WARRIOR";
+const description = "Scopx Warriors is a collection of 1000 randomly generated and stylistically curated NFTs. Scopx Warriors holders can participate in exclusive events such as our P2E NFT Game, NFT claims, raffles, community giveaways, and more. Remember, we all warriors.";
+const baseUri = "ipfs://bafybeig3qov6yeuxmj7himdo2p2dpaqnfaoo5e3w6ho5oxj2vkwr334hj4/"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
@@ -42,7 +42,7 @@ const format = {
 };
 
 const extraMetadata = {
-  external_url: "https://codecats.xyz", // Replace with your website or remove this line if you do not have one.
+  external_url: "https://scopxwarrior.tech/", // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
@@ -56,11 +56,11 @@ const CHAIN = 'rinkeby'; // only rinkeby or polygon
 const CONTRACT_NAME = 'AKI ALI NFT 5';
 const CONTRACT_SYMBOL = 'AANFT5';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
-const OWNER_ADDRESS = '0x2884a2c0c4b35F9E652f3373527cddA1Fd11786E';
-const TREASURY_ADDRESS = '0x2884a2c0c4b35F9E652f3373527cddA1Fd11786E';
+const OWNER_ADDRESS = '0x3e204a46abd9c8e53C3B249f85603410aea9F820';
+const TREASURY_ADDRESS = '0x3e204a46abd9c8e53C3B249f85603410aea9F820';
 const MAX_SUPPLY = 1000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
-const MINT_PRICE = 0.000001; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
-const TOKENS_PER_MINT = 1000; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
+const MINT_PRICE = 30; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
+const TOKENS_PER_MINT = 5; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PUBLIC_MINT_START_DATE = "2022-03-20T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
@@ -68,8 +68,8 @@ const PUBLIC_MINT_START_DATE = "2022-03-20T11:30:48+00:00"; // This is required.
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = null; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
-const ROYALTY_ADDRESS = "0x4a8E1195D8009Ee082578C7e98DD8C422e281c7C"; // Address that will receive the royalty
-const BASE_URI = "ipfs://bafybeic4dtvxvhjnp633x5wzboegmgq5kyg4imunusuw5lruu2kmxri7ai/"; // only update if you want to manually set the base uri
+const ROYALTY_ADDRESS = "0x3e204a46abd9c8e53C3B249f85603410aea9F820"; // Address that will receive the royalty
+const BASE_URI = "ipfs://bafybeig3qov6yeuxmj7himdo2p2dpaqnfaoo5e3w6ho5oxj2vkwr334hj4/"; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
 const PRESALE_WHITELISTED_ADDRESSES = []; // only update if you want to manually set the whitelisted addresses
 
